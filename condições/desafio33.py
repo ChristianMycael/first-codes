@@ -1,3 +1,4 @@
+'''
 #PARTE 1 escolha dos numeros
 n1, n2, n3 = map(int, input('DIGITE TRES NUMERO:').split())
 
@@ -18,3 +19,23 @@ elif n3 > n1 and n3 > n2:
 #parte 4 mostrando maior e menor numero
 print(f'O menor valor digitado foi {menor}')
 print(f'O maior valor digitado foi {maior}')
+'''
+
+
+
+#PARTE 1 escolha dos numeros
+a =  int(input('Digite um valores: '))
+b =  int(input('Digite um valores: '))
+c = int(input('Digite um valores: '))
+
+#função para calcular o maior entre dois numeros
+def maior_ab(a, b):
+    return (a + b +abs (a -b)) / 2
+
+# maior entre a e b 
+maior = maior_ab(a, b)
+
+#maior entre c e o resultado de a + b 
+maior = maior_ab(maior, c)
+
+print(f'{maior} eh o maior')
