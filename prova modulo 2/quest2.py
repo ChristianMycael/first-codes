@@ -14,5 +14,5 @@ b = float(input('digite o valor da base:'))
 
 area = h * b
 
-print(f'o valor da altura: {area:.3f}')
+print(f'o valor da altura: {area:.3f}m²')
 
