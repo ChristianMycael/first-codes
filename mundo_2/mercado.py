@@ -1,3 +1,4 @@
+
 #PARTE 1 
 print('{:=^40}'.format(' MERCADINHO DO RUIVO '))
 preco = float (input(' Preço das compras R$: '))
